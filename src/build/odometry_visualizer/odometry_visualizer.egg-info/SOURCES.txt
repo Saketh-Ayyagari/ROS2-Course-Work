@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+odometry_visualizer/__init__.py
+odometry_visualizer/odometry_publisher.py
+odometry_visualizer.egg-info/PKG-INFO
+odometry_visualizer.egg-info/SOURCES.txt
+odometry_visualizer.egg-info/dependency_links.txt
+odometry_visualizer.egg-info/entry_points.txt
+odometry_visualizer.egg-info/requires.txt
+odometry_visualizer.egg-info/top_level.txt
+odometry_visualizer.egg-info/zip-safe
+resource/odometry_visualizer

@@ -1,0 +1,26 @@
+[1.352s] Invoking command in '/home/user/exercises_ws/src/build/odometry_visualizer': PYTHONPATH=/home/user/exercises_ws/src/build/odometry_visualizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exercises_ws/src/install/odometry_visualizer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/exercises_ws/src/build/odometry_visualizer/build --no-deps symlink_data
+[1.833s] running develop
+[1.837s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.837s]   warnings.warn(
+[2.092s] running egg_info
+[2.092s] creating odometry_visualizer.egg-info
+[2.092s] writing odometry_visualizer.egg-info/PKG-INFO
+[2.092s] writing dependency_links to odometry_visualizer.egg-info/dependency_links.txt
+[2.092s] writing entry points to odometry_visualizer.egg-info/entry_points.txt
+[2.093s] writing requirements to odometry_visualizer.egg-info/requires.txt
+[2.093s] writing top-level names to odometry_visualizer.egg-info/top_level.txt
+[2.093s] writing manifest file 'odometry_visualizer.egg-info/SOURCES.txt'
+[2.098s] reading manifest file 'odometry_visualizer.egg-info/SOURCES.txt'
+[2.098s] writing manifest file 'odometry_visualizer.egg-info/SOURCES.txt'
+[2.101s] running build_ext
+[2.101s] Creating /home/user/exercises_ws/src/install/odometry_visualizer/lib/python3.10/site-packages/odometry-visualizer.egg-link (link to .)
+[2.102s] Installing publish_odometry_data script to /home/user/exercises_ws/src/install/odometry_visualizer/lib/odometry_visualizer
+[2.103s] 
+[2.104s] Installed /home/user/exercises_ws/src/build/odometry_visualizer
+[2.104s] running symlink_data
+[2.104s] creating /home/user/exercises_ws/src/install/odometry_visualizer/share/ament_index
+[2.104s] creating /home/user/exercises_ws/src/install/odometry_visualizer/share/ament_index/resource_index
+[2.104s] creating /home/user/exercises_ws/src/install/odometry_visualizer/share/ament_index/resource_index/packages
+[2.104s] symbolically linking /home/user/exercises_ws/src/build/odometry_visualizer/resource/odometry_visualizer -> /home/user/exercises_ws/src/install/odometry_visualizer/share/ament_index/resource_index/packages
+[2.104s] symbolically linking /home/user/exercises_ws/src/build/odometry_visualizer/package.xml -> /home/user/exercises_ws/src/install/odometry_visualizer/share/odometry_visualizer
+[2.138s] Invoked command in '/home/user/exercises_ws/src/build/odometry_visualizer' returned '0': PYTHONPATH=/home/user/exercises_ws/src/build/odometry_visualizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/exercises_ws/src/install/odometry_visualizer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/exercises_ws/src/build/odometry_visualizer/build --no-deps symlink_data

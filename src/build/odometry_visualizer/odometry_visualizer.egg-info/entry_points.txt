@@ -1,0 +1,3 @@
+[console_scripts]
+publish_odometry_data = odometry_visualizer.odometry_publisher:main
+

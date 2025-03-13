@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating odometry_visualizer.egg-info
+writing odometry_visualizer.egg-info/PKG-INFO
+writing dependency_links to odometry_visualizer.egg-info/dependency_links.txt
+writing entry points to odometry_visualizer.egg-info/entry_points.txt
+writing requirements to odometry_visualizer.egg-info/requires.txt
+writing top-level names to odometry_visualizer.egg-info/top_level.txt
+writing manifest file 'odometry_visualizer.egg-info/SOURCES.txt'
+reading manifest file 'odometry_visualizer.egg-info/SOURCES.txt'
+writing manifest file 'odometry_visualizer.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/user/exercises_ws/src/install/odometry_visualizer/lib/python3.10/site-packages/odometry-visualizer.egg-link (link to .)
+Installing publish_odometry_data script to /home/user/exercises_ws/src/install/odometry_visualizer/lib/odometry_visualizer
+
+Installed /home/user/exercises_ws/src/build/odometry_visualizer
+running symlink_data
+creating /home/user/exercises_ws/src/install/odometry_visualizer/share/ament_index
+creating /home/user/exercises_ws/src/install/odometry_visualizer/share/ament_index/resource_index
+creating /home/user/exercises_ws/src/install/odometry_visualizer/share/ament_index/resource_index/packages
+symbolically linking /home/user/exercises_ws/src/build/odometry_visualizer/resource/odometry_visualizer -> /home/user/exercises_ws/src/install/odometry_visualizer/share/ament_index/resource_index/packages
+symbolically linking /home/user/exercises_ws/src/build/odometry_visualizer/package.xml -> /home/user/exercises_ws/src/install/odometry_visualizer/share/odometry_visualizer
