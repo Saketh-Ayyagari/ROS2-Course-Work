@@ -68,8 +68,8 @@ class OdometryPublisher(Node):
         # integrates velocity values and adds them to current parts of pose
         self.theta += self.angular_vel * self.delta_time # estimating heading w/ respect to initial heading
         # updates x and y based on component values of velocity
-        self.x += self.linear_vel * math.cos(self.theta) * self.delta_time 
-        self.y += self.linear_vel * math.sin(self.theta) * self.delta_time
+        self.x += self.linear_vel * math.cos(self.theta) * delta_time 
+        self.y += self.linear_vel * math.sin(self.theta) * delta_time
 
     def joint_states_callback(self, joint_states):
         
@@ -79,7 +79,7 @@ class OdometryPublisher(Node):
         # conversion from angular to linear velocities for each wheel
         left_wheel_vel = self.wheel_radius * left_angular_velocity
         right_wheel_vel = self.wheel_radius * right_angular_velocity
-
+  
         # using odometry equations to get total linear and angular velocities
         '''
         Equations
@@ -104,7 +104,7 @@ class OdometryPublisher(Node):
     
         # converting euler orientation to Quaternion orientation
         orientation_quat = quaternion_from_euler(0, 0, self.theta, 0)
-        odom_message.pose.pose.orientation = Quaternion(x=orientation_quat[0], y=orientation_quat[0], z=self.theta, )
+        odom_message.pose.pose.orientation = Quaternion(x=orientation_quat[0], y=orientation_quat[1], z=orientation_quat[2], w=orientation_quat[3])
         
         # publishes odometry message to /robot_odometry topic
         self.odometry_publisher.publish(odom_message)
